@@ -5,3 +5,29 @@
   text-decoration: none;
   color: gray;
 }
+
+.main-visual {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.heading {
+  padding: 20px;
+}
+
+.courses {
+  width: 840px;
+  margin: 50px auto;
+}
+
+.course {
+  padding: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.courses:first-child {
+  padding-top: 0;
+}
